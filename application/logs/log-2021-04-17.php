@@ -1,0 +1,29 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2021-04-17 15:42:01 --> Severity: Notice --> Undefined variable: label E:\www\joywayid\application\modules\mnats\views\V_form.php 37
+ERROR - 2021-04-17 15:42:01 --> Severity: Notice --> Undefined property: stdClass::$nama E:\www\joywayid\application\modules\mnats\views\V_form.php 48
+ERROR - 2021-04-17 15:42:01 --> Severity: Notice --> Undefined property: stdClass::$nama E:\www\joywayid\application\modules\mnats\views\V_form.php 48
+ERROR - 2021-04-17 15:42:01 --> Severity: Notice --> Undefined property: stdClass::$nama E:\www\joywayid\application\modules\mnats\views\V_form.php 48
+ERROR - 2021-04-17 15:42:01 --> Severity: Notice --> Undefined property: stdClass::$nama E:\www\joywayid\application\modules\mnats\views\V_form.php 48
+ERROR - 2021-04-17 15:42:01 --> Severity: Notice --> Undefined property: stdClass::$nama E:\www\joywayid\application\modules\mnats\views\V_form.php 48
+ERROR - 2021-04-17 15:42:01 --> Severity: Notice --> Undefined property: stdClass::$nama E:\www\joywayid\application\modules\mnats\views\V_form.php 48
+ERROR - 2021-04-17 15:42:01 --> Severity: Notice --> Undefined property: stdClass::$nama E:\www\joywayid\application\modules\mnats\views\V_form.php 48
+ERROR - 2021-04-17 15:42:01 --> Severity: Notice --> Undefined property: stdClass::$nama E:\www\joywayid\application\modules\mnats\views\V_form.php 48
+ERROR - 2021-04-17 15:42:01 --> Severity: Notice --> Undefined property: stdClass::$nama E:\www\joywayid\application\modules\mnats\views\V_form.php 48
+ERROR - 2021-04-17 15:42:01 --> Severity: Notice --> Undefined property: stdClass::$nama E:\www\joywayid\application\modules\mnats\views\V_form.php 48
+ERROR - 2021-04-17 15:42:01 --> Severity: Notice --> Undefined property: stdClass::$nama E:\www\joywayid\application\modules\mnats\views\V_form.php 48
+ERROR - 2021-04-17 15:42:01 --> Severity: Notice --> Undefined property: stdClass::$nama E:\www\joywayid\application\modules\mnats\views\V_form.php 48
+ERROR - 2021-04-17 15:42:01 --> Severity: Notice --> Undefined property: stdClass::$nama E:\www\joywayid\application\modules\mnats\views\V_form.php 48
+ERROR - 2021-04-17 15:43:01 --> Severity: Notice --> Undefined property: stdClass::$nama E:\www\joywayid\application\modules\mnats\views\V_form.php 48
+ERROR - 2021-04-17 15:43:01 --> Severity: Notice --> Undefined property: stdClass::$nama E:\www\joywayid\application\modules\mnats\views\V_form.php 48
+ERROR - 2021-04-17 15:43:01 --> Severity: Notice --> Undefined property: stdClass::$nama E:\www\joywayid\application\modules\mnats\views\V_form.php 48
+ERROR - 2021-04-17 15:43:01 --> Severity: Notice --> Undefined property: stdClass::$nama E:\www\joywayid\application\modules\mnats\views\V_form.php 48
+ERROR - 2021-04-17 15:43:01 --> Severity: Notice --> Undefined property: stdClass::$nama E:\www\joywayid\application\modules\mnats\views\V_form.php 48
+ERROR - 2021-04-17 15:43:01 --> Severity: Notice --> Undefined property: stdClass::$nama E:\www\joywayid\application\modules\mnats\views\V_form.php 48
+ERROR - 2021-04-17 15:43:01 --> Severity: Notice --> Undefined property: stdClass::$nama E:\www\joywayid\application\modules\mnats\views\V_form.php 48
+ERROR - 2021-04-17 15:43:01 --> Severity: Notice --> Undefined property: stdClass::$nama E:\www\joywayid\application\modules\mnats\views\V_form.php 48
+ERROR - 2021-04-17 15:43:01 --> Severity: Notice --> Undefined property: stdClass::$nama E:\www\joywayid\application\modules\mnats\views\V_form.php 48
+ERROR - 2021-04-17 15:43:01 --> Severity: Notice --> Undefined property: stdClass::$nama E:\www\joywayid\application\modules\mnats\views\V_form.php 48
+ERROR - 2021-04-17 15:43:01 --> Severity: Notice --> Undefined property: stdClass::$nama E:\www\joywayid\application\modules\mnats\views\V_form.php 48
+ERROR - 2021-04-17 15:43:01 --> Severity: Notice --> Undefined property: stdClass::$nama E:\www\joywayid\application\modules\mnats\views\V_form.php 48
+ERROR - 2021-04-17 15:43:01 --> Severity: Notice --> Undefined property: stdClass::$nama E:\www\joywayid\application\modules\mnats\views\V_form.php 48

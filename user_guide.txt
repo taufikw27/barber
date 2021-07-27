@@ -1,0 +1,11 @@
+Step by step nomnom3
+1. Copy controller, sesuaikan nama folder dan nama classnya, juga lakukan pengisian variabel private mainTable, modulName, modulLabel, dan title pada fungsi index
+2. Lakukan perubahan pada fungsi showAll di Controller, dengan menyesuaikan sql pada fungsi getAll di M_modul dan sesuaikan pula kolom2 di V_index yaitu pada thead (nama kolom) dan tbody (data row)
+3. Lakukan perubahan pada fungsi showForm di Controller, dengan menyesuaikan fungsi getRow di M_modul dan sesuaikan isian kolom di V_form. Sesuaikan pula variabel2 data sesuai dengan fungsi yang dibutuhkan untuk V_form pada M_modul
+4. Ubah link summernote di file assets/summernote-0.8.18/summernote-upload.php yaitu $urlgambar dan pada file oform di assets/js/oform.js pada var ajaxfile
+5. Setelah proses development selesai, disable debug pada file oindex.js, oform.js, dan core/MY_Controller
+
+NB: 
+- Jika terjadi internal server error, cek kembali koding yang diubah terutama syntax sql M_modul atau untuk melihat error sql nya buka file database.php set db_debug = FALSE
+- Jika eror kembalian kosong, aktifkan debugf pada oform.js	
+- pastikan nama file Controller berawalan kapital terutama di SO Linux dan pastikan permission utk folder upload file dan datajson diset 777

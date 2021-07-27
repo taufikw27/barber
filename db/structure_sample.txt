@@ -1,0 +1,14 @@
+//ingat harus innodb
+ALTER TABLE modul_akses ADD CONSTRAINT modul_akses_role_fk FOREIGN KEY (id_role) REFERENCES role(id) ON DELETE CASCADE on UPDATE CASCADE;
+ALTER TABLE modul_akses ADD CONSTRAINT modul_akses_menu_fk FOREIGN KEY (id_menu) REFERENCES menu_modul(id) ON DELETE CASCADE on UPDATE CASCADE;
+ALTER TABLE modul_aksi ADD CONSTRAINT modul_aksi_akses_fk FOREIGN KEY (id_akses) REFERENCES modul_akses(id) ON DELETE CASCADE on UPDATE CASCADE;
+ALTER TABLE hasil_myer ADD CONSTRAINT myer_hasil_fk FOREIGN KEY (id_test) REFERENCES hasil_test(id) ON DELETE CASCADE on UPDATE CASCADE;
+ALTER TABLE hasil_plus ADD CONSTRAINT plus_hasil_fk FOREIGN KEY (id_test) REFERENCES hasil_test(id) ON DELETE CASCADE on UPDATE CASCADE;
+ALTER TABLE modul_aksi DROP foreign key myer_hasil_fk
+ALTER TABLE produk_video MODIFY COLUMN tglUpload timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP
+ALTER TABLE produk_foto CHANGE tanggalUpload tglUpload timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP
+
+create view v_jadwal_wali as (select j.id as jid, w.nip, w.nama_lengkap, w.kode_prodi, w.prodi, w.kode_kelas, w.kode_thn, ta.thn_ajar, ta.ganjil_genap, j.waktu as waktujadwal, j.reguler from penjadwalan j left join perwalian w on w.id = j.id_perwalian left join thn_ajar ta on w.kode_thn = ta.kode_thn order by j.waktu desc)
+
+update nats set pasal = substring_index(substring_index(kitab, ' ', -1), ':', 1);
+update nats set pasal = SUBSTRING_INDEX( kitab, ' ', -1 ) 

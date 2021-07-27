@@ -1,0 +1,8 @@
+RewriteEngine On
+RewriteCond $1 !^(index\.php|images|captcha|css|js|template|robots\.txt)
+# Do not enable rewriting for files or directories that exist
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+# For reuests that are not actual files or directories,
+# Rewrite to index.php/URL
+RewriteRule ^(.*)$ index.php/$1 [PT,L]
