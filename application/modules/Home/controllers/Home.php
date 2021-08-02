@@ -73,10 +73,9 @@ class Home extends MY_Controller {
 			$this->load->view('header_stl', $data);
 			$this->load->view('pembayaran',$data);
 			$this->load->view('footer');
-        
-        
-		
+	
+		}
 	}
 	
-}
+
 

@@ -31,6 +31,7 @@
             </tfoot>
         </table>
         <div align="center">
-            <?= anchor('home/clear_cart','Clear Cart',['class'=>'btn btn-danger']) ?>         
+            <?= anchor('home/clear_cart','Hapus Pesanan',['class'=>'btn btn-danger']) ?>         
             <?= anchor('home/pembayaran','Check Out',['class'=>'btn btn-success']) ?>
+            <?= anchor('home/shop','Back',['class'=>'btn btn-primary']) ?>
         </div>
